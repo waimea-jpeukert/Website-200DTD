@@ -1,0 +1,176 @@
+  <!DOCTYPE html>
+<!-- Deklariert das Dokument als HTML5 -->
+
+<html lang="en">
+<!-- Start des HTML-Dokuments, Sprache ist Englisch -->
+
+<head>
+<!-- Kopfbereich beginnt -->
+
+  <meta charset="UTF-8">
+  <!-- Zeichencodierung UTF‑8 -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Sorgt für korrekte Darstellung auf mobilen Geräten -->
+
+  <title>Sector Seven | F1-Inspired Shop</title>
+  <!-- Titel des Browser-Tabs -->
+
+  <link rel="stylesheet" href="style.css">
+  <!-- Bindet die CSS-Datei ein -->
+
+  <script src="script.js" defer></script>
+  <!-- Lädt JavaScript und führt es nach dem HTML-Laden aus -->
+
+</head>
+<!-- Ende des Kopfbereichs -->
+
+<body>
+<!-- Sichtbarer Bereich der Webseite beginnt -->
+
+  <header>
+  <!-- Kopfbereich mit Logo und Navigation -->
+
+    <a href="#home"><strong>SECTOR SEVEN</strong></a>
+    <!-- Klickbarer Markenname, führt zum Home-Bereich -->
+
+    <nav aria-label="Main navigation">
+    <!-- Navigation mit Screenreader-Beschreibung -->
+
+      <a href="#products">Shop</a>
+      <!-- Link zum Produktbereich -->
+
+      <a href="#cart">Cart (<span id="cart-count">0</span>)</a>
+      <!-- Link zum Warenkorb, zeigt Artikelanzahl -->
+
+      <a href="#about">About</a>
+      <!-- Link zum Info-Bereich -->
+
+    </nav>
+    <!-- Ende der Navigation -->
+
+  </header>
+  <!-- Ende des Kopfbereichs -->
+
+  <main>
+  <!-- Hauptinhalt beginnt -->
+
+    <section id="home">
+    <!-- Home-Abschnitt -->
+
+      <p class="muted">F1-inspired apparel</p>
+      <!-- Kleiner grauer Text -->
+
+      <h1>Sector Seven</h1>
+      <!-- Hauptüberschrift -->
+
+      <p class="intro">A small shop prototype for motorsport fans.</p>
+      <!-- Einleitungstext -->
+
+    </section>
+    <!-- Ende des Home-Bereichs -->
+
+    <section id="products">
+    <!-- Produktbereich beginnt -->
+
+      <h2>Featured product</h2>
+      <!-- Überschrift für Produkt -->
+
+      <article class="product">
+      <!-- Einzelnes Produkt -->
+
+        <img src="product%20pictures/tee-front.png" alt="White Sector Seven T-shirt">
+        <!-- Produktbild -->
+
+        <h3>Safety Car Operator T-Shirt</h3>
+        <!-- Produktname -->
+
+        <p>A simple T-shirt with a motorsport-inspired design.</p>
+        <!-- Produktbeschreibung -->
+
+        <p><strong>Price: NZ$ 39.00</strong></p>
+        <!-- Preis -->
+
+        <label for="size">Size:</label>
+        <!-- Beschriftung für Größen-Auswahl -->
+
+        <select id="size">
+        <!-- Dropdown-Menü für Größe -->
+
+          <option value="S">S</option>
+          <!-- Größe S -->
+
+          <option value="M">M</option>
+          <!-- Größe M -->
+
+          <option value="L">L</option>
+          <!-- Größe L -->
+
+          <option value="XL">XL</option>
+          <!-- Größe XL -->
+
+        </select>
+        <!-- Ende Dropdown -->
+
+        <button type="button" onclick="addToCart()">Add to cart</button>
+        <!-- Button, der die JS-Funktion addToCart() ausführt -->
+
+      </article>
+      <!-- Ende Produktartikel -->
+
+    </section>
+    <!-- Ende Produktbereich -->
+
+    <section id="cart">
+    <!-- Warenkorb-Bereich beginnt -->
+
+      <h2>Shopping cart</h2>
+      <!-- Überschrift -->
+
+      <p class="muted">Demo: The cart only lasts while this page is open. No real orders or payments are processed.</p>
+      <!-- Hinweis: Nur Demo -->
+
+      <ul id="cart-list"></ul>
+      <!-- Liste, die per JavaScript gefüllt wird -->
+
+      <p><strong>Subtotal: <span id="cart-total">NZ$ 0.00</span></strong></p>
+      <!-- Zwischensumme -->
+
+      <button id="clear-cart" type="button">Clear cart</button>
+      <!-- Button zum Leeren des Warenkorbs -->
+
+    </section>
+    <!-- Ende Warenkorb -->
+
+    <section id="about">
+    <!-- Info-Bereich beginnt -->
+
+      <h2>About this project</h2>
+      <!-- Überschrift -->
+
+      <p>Sector Seven is a student-made prototype for F1-inspired apparel. It demonstrates how HTML, CSS, and JavaScript work together.</p>
+      <!-- Beschreibung des Projekts -->
+
+      <p class="muted">There is no server, database, or payment system.</p>
+      <!-- Hinweis auf technische Grenzen -->
+
+    </section>
+    <!-- Ende Info-Bereich -->
+
+  </main>
+  <!-- Ende Hauptinhalt -->
+
+  <footer>
+  <!-- Fußbereich beginnt -->
+
+    <p>Sector Seven · Student project</p>
+    <!-- Footer-Text -->
+
+  </footer>
+  <!-- Ende Fußbereich -->
+
+</body>
+<!-- Ende sichtbarer Bereich -->
+
+</html>
+<!-- Ende des HTML-Dokuments -->
