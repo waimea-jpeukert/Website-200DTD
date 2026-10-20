@@ -1,4 +1,4 @@
-# Sector Seven: Erklaerung fuer den Unterricht
+# Sector Seven: Erklärung füer den Unterricht
 
 Hinweis: Die sichtbare Website ist auf Englisch. Diese Datei ist eine offene deutsche Lernhilfe und erklaert den Aufbau Abschnitt fuer Abschnitt.
 
