@@ -10,7 +10,7 @@ This site is intended for Formula 1 Fans that want to buy Formula 1 merch that i
 ## Site Features
 
 - Product pages
-- Shopping cart
+- Shopping cart with working price system
 - About the project section
 - Small introduction section
-
+- simple and clean black design
